@@ -156,6 +156,7 @@ curl -fsSL https://aerial.qust.me/install.sh | TV=192.168.1.20 bash -s restore
 | 创维酷开 K3 Pro | Android 11 | 用户验证（[#43](https://github.com/pengchujin/aerial-tv/issues/43)） |
 | 康佳 KKTV U86V9 | Android 9 | 用户验证：主页键、开机自启、信号源；亮度调不了（[笔记](docs/devices/konka-kktv-u86v9.md)） |
 | OPPO K9 | Android 9 | 要改包名才能装（[笔记](docs/devices/oppo-coloros-tv.md)） |
+| 乐视超4 X55（Letv X4-55，f608） | Android 6.0 / EUI | 安装、开机自启、HOME 接管（[#510](https://github.com/pengchujin/aerial-tv/issues/510)）；安装坑：/system/bin 无 base64 命令（用 toybox nc 直传），Android 6 无 cmd（守护靠 WRITE_SECURE_SETTINGS 自启用） |
 | 康佳 2861、PPTV K55U27、极米 m7642、腾讯极光盒子 7S | Android 5–9 | 用户验证，各有小问题，见 [Issues](https://github.com/pengchujin/aerial-tv/issues) |
 | 雷鸟 55S595C Ultra | Android 11 | 能装，但接管不了 HOME（[#52](https://github.com/pengchujin/aerial-tv/issues/52)） |
 
