@@ -35,7 +35,8 @@
 </p>
 
 - **首页**：常用的一排 App 放在屏幕下方的玻璃底板上，往下是全部 App。小米「应用中心」「米家」这类藏起来的系统 App 也在。
-- **整理**：长按 OK 键（或按菜单键）可以移动、放进文件夹、隐藏、卸载。固定到主屏幕的 HDMI 可以选接的是 Apple TV、PlayStation、Switch、Xbox、电脑等，换成对应的图标，也能在手机上起名字；文件夹也可以在手机上改名。
+- **整理**：长按 OK 键（或按菜单键）可以移动、放进文件夹、隐藏、卸载。固定到主屏幕的 HDMI 可以选接的是 Apple TV、PlayStation、Switch、Xbox、电脑等，换成对应的图标，也能在手机上起名字。
+- **用手机整理**：扫电视上的二维码，手机上就是和电视一样的图标网格：按住拖动排序，点一下改名、换图标、放进文件夹或隐藏，也能把 HDMI 等信号源加到主屏幕。
 - **控制中心**：在第一排按上键到右上角打开，有信号源、网络、设置、音量、亮度和个性化。
 - **屏保**：Apple TV 的 114 段航拍影片，电视支持时播 4K 或 4K 杜比视界，也可以换成照片、时钟或从手机添加的本地视频（[说明](docs/SCREENSAVER_VIDEOS.md)）。
 - **壁纸**：必应每日精选、14 张内置壁纸、用手机扫码传的照片，或者航拍：停在主屏幕 10 秒后在磁贴后面播放，按任意键停在当前画面。
@@ -156,6 +157,7 @@ curl -fsSL https://aerial.qust.me/install.sh | TV=192.168.1.20 bash -s restore
 | 创维酷开 K3 Pro | Android 11 | 用户验证（[#43](https://github.com/pengchujin/aerial-tv/issues/43)） |
 | 康佳 KKTV U86V9 | Android 9 | 用户验证：主页键、开机自启、信号源；亮度调不了（[笔记](docs/devices/konka-kktv-u86v9.md)） |
 | OPPO K9 | Android 9 | 要改包名才能装（[笔记](docs/devices/oppo-coloros-tv.md)） |
+| 乐视超3 X65（Letv X3-65，X65-168CQ） | Android 5.0.1 / EUI | 安装、渲染正常；按 HOME 时框架强杀第三方桌面，接管不稳定（[#510](https://github.com/pengchujin/aerial-tv/issues/510)、[笔记](docs/devices/letv-x3-65.md)） |
 | 康佳 2861、PPTV K55U27、极米 m7642、腾讯极光盒子 7S | Android 5–9 | 用户验证，各有小问题，见 [Issues](https://github.com/pengchujin/aerial-tv/issues) |
 | 雷鸟 55S595C Ultra | Android 11 | 能装，但接管不了 HOME（[#52](https://github.com/pengchujin/aerial-tv/issues/52)） |
 
